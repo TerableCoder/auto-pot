@@ -1,0 +1,18 @@
+{
+	"files": {
+		"index.js": "6c6a46912aa5c1219e5d7a45179468028ce6775c82c9e362b822d4794fea051a"
+	},
+	"defs": {
+		"C_ADMIN": 1,
+		"C_CONFIRM_UPDATE_NOTIFICATION": "raw",
+		"C_PLAYER_LOCATION": 5,
+		"C_SHOW_ITEMLIST": 1,
+		"C_USE_ITEM": 3,
+		"S_ANNOUNCE_UPDATE_NOTIFICATION": 1,
+		"S_CREATURE_CHANGE_HP": 6,
+		"S_ITEMLIST": "raw",
+		"S_PLAYER_CHANGE_MP": 1,
+		"S_RETURN_TO_LOBBY": "raw",
+		"S_SPAWN_ME": 3
+	}
+}

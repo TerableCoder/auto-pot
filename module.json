@@ -1,0 +1,12 @@
+{
+	"disableAutoUpdate": false,
+	"name": "AutoPOT",
+	"author": "Fukki / TerableCoder",
+	"description": "auto use HP potion in normal or slaying and auto use Mana potion.",
+	"version": "Kappa :v",
+	"options": {
+		"niceName": "AutoPOT"
+	},
+	"servers": ["https://raw.githubusercontent.com/TerableCoder/auto-pot/master/"],
+	"supportUrl": "https://github.com/TerableCoder/auto-pot/issues/"
+}

@@ -1,0 +1,16 @@
+{
+    "6562": {
+        "name": "Prime Replenishment Potable",
+		"inBattleground": false,
+        "inCombat": false,
+        "use_at": 50,
+        "cd": 10
+    },
+	"9311": {
+        "name": "Veteran's MP Potion",
+		"inBattleground": true,
+        "inCombat": false,
+        "use_at": 40,
+        "cd": 30
+    }
+}
