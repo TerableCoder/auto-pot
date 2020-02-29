@@ -223,14 +223,11 @@ module.exports = function AutoPOT(mod) {
 		wLoc = e.w;
 	});
 	
-	mod.hook('S_CREATURE_CHANGE_HP', 6, e => {
-		if (config.enabled && e.target === mod.game.me.gameId)
-			useHP(Math.round(s2n(e.curHp) / s2n(e.maxHp) * 100));
-	});
-	
-	mod.hook('S_PLAYER_CHANGE_MP', 1, e => {
-		if (config.enabled && e.target === mod.game.me.gameId)
-			useMP(Math.round(s2n(e.currentMp) / s2n(e.maxMp) * 100));
+	mod.hook('S_PLAYER_STAT_UPDATE', 13, e => {
+		if (config.enabled){
+			useHP(Math.round(s2n(e.hp) / s2n(e.hp) * 100));
+			useMP(Math.round(s2n(e.mp) / s2n(e.mp) * 100));
+		}
 	});
 	
 	mod.hook('S_ITEMLIST', 'raw', () => {
