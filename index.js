@@ -223,7 +223,7 @@ module.exports = function AutoPOT(mod) {
 		wLoc = e.w;
 	});
 	
-	mod.hook('S_PLAYER_STAT_UPDATE', 13, e => {
+	mod.hook('S_PLAYER_STAT_UPDATE', 14, e => {
 		if (config.enabled){
 			useHP(Math.round(s2n(e.hp) / s2n(e.hp) * 100));
 			useMP(Math.round(s2n(e.mp) / s2n(e.mp) * 100));
